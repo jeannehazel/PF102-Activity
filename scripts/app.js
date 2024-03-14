@@ -24,10 +24,10 @@ let obj2 = {
 
 const { image, desc, button1, title2 } = obj2
 
-sec1.append(infofunc(title, par, button))
-sec1.append(imgfun(img))
-sec3.append(infofunc2(title2))
-sec2.append(cardfunc(image, desc, button1))
-sec2.append(cardfunc(image, desc, button1))
-sec2.append(cardfunc(image, desc, button1))
+section1.append(infofunc(title, par, button))
+section1.append(imgfun(img))
+section3.append(infofunc2(title2))
+section2.append(cardfunc(image, desc, button1))
+section2.append(cardfunc(image, desc, button1))
+section2.append(cardfunc(image, desc, button1))
 

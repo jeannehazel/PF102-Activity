@@ -5,7 +5,7 @@
 
 }
 body{
-    background-color: navajowhite;
+    background: linear-gradient(to top, #33ccff 10%, #ff99cc 100%);
 }
 
 .sec1con{
@@ -23,6 +23,9 @@ div{
 
 img{
     width: 500px;
+    margin-top: 75px;
+   
+    
 }
 
 p, h1{
@@ -34,15 +37,22 @@ p, h1{
 
 .section1{
     display: flex;
-    margin-top: 80px;
+    margin-top: 50px;
     margin-bottom: 225px;
 }
 
 .section2{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 1000px;
     margin-left: 100px;
+}
+
+.section2 img{
+    margin-top: 0;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 0;
 }
 
 
@@ -74,6 +84,8 @@ button:active{
 }
 
 .cardsec2{
+    background-color:#ff99cc;
+    margin-left: 66px;
     margin-right: 20px;
     padding-right: 300px;
     padding-left: 0;
@@ -81,21 +93,16 @@ button:active{
     width: 200px;
     border: 1px solid black;
     border-radius: 10px;
-    overflow: hidden;
+
     padding-bottom: 20px;
     box-shadow: 5px 10px 10px rgba(0,0,0,0.7);
-    opacity: 0.5;
-    transition: all 0.15s;
+   
 }
 
-.cardsec2:hover{
-    opacity: 1;
-    box-shadow: 10px 20px 20px rgba(0,0,0,0.5);
-}
 
-.cardsec2:active{
-    box-shadow: 5px 10px 10px rgba(0,0,0,0.7);
-}
+
+
+
 
 .hud{
     margin-left: 10px;
@@ -105,12 +112,13 @@ button:active{
 }
 
 .but{
-    margin-left: 10px;
+    margin-left: 100px;
     padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 12px;
     padding-right: 12px;
     width: 100px;
+
 }
 
 .section3 h1{
