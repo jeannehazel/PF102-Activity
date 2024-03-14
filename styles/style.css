@@ -11,6 +11,10 @@ body{
 .sec1con{
     padding-top: 150px;
     margin-bottom: 50px;
+    text-align: justify;
+}
+.secimg1{
+    width: fit-content;
 }
 
 div{
@@ -25,15 +29,16 @@ p, h1{
     width: 400px;
     margin-bottom: 20px;
     text-align: justify;
+
 }
 
-.sec1{
+.section1{
     display: flex;
     margin-top: 80px;
     margin-bottom: 225px;
 }
 
-.sec2{
+.section2{
     display: flex;
     justify-content: space-evenly;
     width: 1000px;
@@ -108,7 +113,7 @@ button:active{
     width: 100px;
 }
 
-.sec3 h1{
+.section3 h1{
     justify-content: center;
     text-align: center;
     margin-top: 50px;
